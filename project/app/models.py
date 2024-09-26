@@ -16,7 +16,7 @@ class Student(models.Model):
     class Meta:
         db_table='student_detail'
         ordering=['stu_name']        #arranging the name in ascending order 
-       # ordering=['-stu_name']        #arranging the name in decending order 
+       #  ordering=['-stu_name']        #arranging the name in decending order 
         verbose_name='Student'              #it add the 's' in the name which is shown on the  admin panel. 
         # verbose_name_plural='Student'    #it remove the 's' in the name which is shown on the  admin panel
     
